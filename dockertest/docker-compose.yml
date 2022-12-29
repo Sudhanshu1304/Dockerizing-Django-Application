@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  # Then you have to write the name for the application and then give the specification about it like hou to run etc
+  myapp:
+    # here i am specifing what all should happen while calling build command (to create image), but since all we currentely need for this case is to 
+    # tell the path for the dir of which we have to build the image of.
+    build: .
+    volumes:
+      - .:/newapp
+    ports:
+      - 8000:8000
+    # duc1 => docker_using_compose_1
+    image: duc1 
+    container_name: duc1_container1
+    command: python manage.py runserver 0.0.0.0:8000
+    
+

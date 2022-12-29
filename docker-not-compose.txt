@@ -1,0 +1,11 @@
+# first line is to get the required os
+FROM python:3.8-slim-buster
+# in here we can specify the name and path to folder where we will keep all files inside docker image
+WORKDIR /app
+# now we will copy path to requirements.txt indise the workdir
+COPY requirements.txt requirements.txt
+RUN pip3 install -r requirements.txt
+# now we will copy the rest of the dir files into the work dir , First dot {.} corresponds to where we will copy from and next dot is about where to put {workdir}
+# but since we have mention workdir above we can directelly give . bucuz that by default path
+COPY . .
+CMD [ "python3", "manage.py", "runserver" ,"0.0.0.0:8080" ]
