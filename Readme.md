@@ -1,7 +1,7 @@
 # Dockerizing Django Application
 
 <div align="center">
-<img src = "Images\docker3.png"  height = "50%" >
+<img src = "Images\docker2.jpg"  height = "50%" >
 </div>
 
 ## Step 1
