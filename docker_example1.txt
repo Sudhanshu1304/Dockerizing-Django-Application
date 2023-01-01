@@ -1,3 +1,5 @@
+# this is a dockerfile if using only docker file
+
 # first line is to get the required os
 FROM python:3.8-slim-buster
 # in here we can specify the name and path to folder where we will keep all files inside docker image

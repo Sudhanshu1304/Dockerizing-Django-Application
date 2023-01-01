@@ -1,4 +1,4 @@
-# first line is to get the required os
+# this is the dockerfile if you are using docker-compose file
 FROM python:3.8-slim-buster
 # in here we can specify the name and path to folder where we will keep all files inside docker image
 WORKDIR /newapp
