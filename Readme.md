@@ -90,6 +90,12 @@ Run the below commands to create and run the image in the bash/cmd
 
 ~~~
 
+## Learn More in detail
+---
+To learn more in detail visit the medium blog
+
+## [Dockerizing Django: Step-by-Step-Guide ](https://medium.com/@sudhanshu.dpandey/dockerizing-django-9fce847d2d7e)
+
 
 
 
